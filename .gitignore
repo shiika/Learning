@@ -2,3 +2,5 @@ C#/
 .DS_Store
 _ds
 .claude
+# Local Netlify folder
+.netlify

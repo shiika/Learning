@@ -20,7 +20,8 @@ Then open <http://localhost:8777>. There is no build step.
 | `app.js` | State, rendering and progress persistence (plain ES5-style IIFE, no framework) |
 | `app.css` | Page-level layout, interaction states and responsive rules |
 | `data.js` | Phases, resources, purchase timing, stack, services and skips — extracted verbatim from the design source |
-| `_ds/organic-…/styles.css` | The **Organic** design system: tokens (`--color-*`, `--space-*`, `--radius-*`) plus `.btn` / `.card` / `.tag` / `.table` classes |
+| `styles.css` | The **Organic** design system: tokens (`--color-*`, `--space-*`, `--radius-*`) plus `.btn` / `.card` / `.tag` / `.table` classes |
+| `_ds_bundle.js` | Claude Design canvas runtime stub (only used by the `.dc.html` file) |
 | `Learning Roadmap.dc.html` | The imported design source. Kept as the reference for re-syncing |
 | `support.js` | Claude Design canvas runtime, only used by the `.dc.html` file |
 
